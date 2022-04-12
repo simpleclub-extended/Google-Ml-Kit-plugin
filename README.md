@@ -4,6 +4,13 @@
 
 A Flutter plugin to use [Google's standalone ML Kit](https://developers.google.com/ml-kit) for Android and iOS.
 
+## ⚠ fork
+
+This is a fork of [google_ml_kit](https://pub.dev/packages/google_ml_kit) that strips unnecessary parts of the
+ML library that are not used by simpleclub apps to optimize build output sizes
+
+---
+
 ## Features
 
 ### Vision
