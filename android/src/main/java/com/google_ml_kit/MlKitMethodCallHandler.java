@@ -24,7 +24,7 @@ public class MlKitMethodCallHandler implements MethodChannel.MethodCallHandler {
         List<ApiDetectorInterface> detectors = new ArrayList<ApiDetectorInterface>(
                 Arrays.asList(
                         new TextDetector(context),
-                        new LanguageDetector(),
+                        new LanguageDetector()
                 ));
 
         handlers = new HashMap<>();
